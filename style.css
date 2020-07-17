@@ -1,0 +1,34 @@
+body {
+  background-color: #fafafa;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.text {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 18px;
+}
+
+textarea {
+	border: 1px solid #888;
+  border-radius: 7px;
+  resize: none;
+}
+
+button[name="send"] {
+   border: none;
+   border-radius: 7px;
+   padding: 10px 25px;
+   background: #ff9900;
+   font-family: 'Ubuntu Condensed', sans-serif;
+   text-transform: uppercase;
+   font-weight: bold;
+   color: white;
+ }
+ button[name="send"]:hover {
+   background: #ff6600;
+ }
+
+ input[name="checkbox"] {
+   width: 100px;
+   height: 100px;
+ }
